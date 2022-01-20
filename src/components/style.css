@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container_nav {
+    width: 23%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.create_new {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    height: 10%;
+    width: 97%;
+    background: url("../images/project1-home11.jpg");
+    background-position: 25rem 0rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+}
+
+.create_new_P {
+    padding: 1.2rem 0;
+}
+
+.right_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card1  {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+.nav_bar {
+    padding: 1.2rem 1rem;
+    color: black;
+    display: block;
+    justify-content: space-around;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(149, 148, 201);
+}
+
+li a:hover{
+    color: rgb(91, 96, 196);
+}
+
+.nav_item {
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    list-style-type: none;
+    height: 2rem;
+    justify-content: space-around;
+}
+
+.active {
+    color: rgb(6, 24, 128);
+}
+
+.fas , .fab {
+    font-weight: 600;
+}
+
+
